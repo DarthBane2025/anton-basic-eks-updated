@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_DarthBane2025_anton_basic_eks_updated_1751588525389-pr-trigger-input-set
+  identifier: Build_DarthBane2025_anton_basic_eks_updated_1751588525389prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_DarthBane2025_anton_basic_eks_updated_1751588525389
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
